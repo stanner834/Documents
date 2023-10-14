@@ -1,0 +1,100 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a modern sans-serif font for better readability */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  /* Navigation menu styles */
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Main content container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Blog post styles */
+  .post {
+    margin-bottom: 20px;
+  }
+  
+  .post h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .post p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Responsive design - adjust layout for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  }
+  
+  /* Add more specific styles and components as needed for your blog content */
+  
+  
